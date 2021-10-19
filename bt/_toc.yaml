@@ -1,0 +1,327 @@
+toc:
+- title: bt
+  section:
+  - title: Overview
+    path: \api_docs\python\bt
+  - title: Backtester
+    path: \api_docs\python\bt\Backtester
+  - title: BacktesterExchange
+    path: \api_docs\python\bt\BacktesterExchange
+  - title: BacktesterStrategy
+    path: \api_docs\python\bt\BacktesterStrategy
+- title: bt.config
+  section:
+  - title: Overview
+    path: \api_docs\python\bt\config
+  - title: AssetConfig
+    path: \api_docs\python\bt\config\AssetConfig
+  - title: AttrDict
+    path: \api_docs\python\bt\config\AttrDict
+  - title: BacktesterConfig
+    path: \api_docs\python\bt\config\BacktesterConfig
+- title: bt.order
+  section:
+  - title: Overview
+    path: \api_docs\python\bt\order
+- title: bt.position
+  section:
+  - title: Overview
+    path: \api_docs\python\bt\position
+- title: bt.ta
+  section:
+  - title: Overview
+    path: \api_docs\python\bt\ta
+  - title: acos
+    path: \api_docs\python\bt\ta\acos
+  - title: ad
+    path: \api_docs\python\bt\ta\ad
+  - title: add
+    path: \api_docs\python\bt\ta\add
+  - title: adosc
+    path: \api_docs\python\bt\ta\adosc
+  - title: adx
+    path: \api_docs\python\bt\ta\adx
+  - title: adxr
+    path: \api_docs\python\bt\ta\adxr
+  - title: apo
+    path: \api_docs\python\bt\ta\apo
+  - title: aroon
+    path: \api_docs\python\bt\ta\aroon
+  - title: aroonosc
+    path: \api_docs\python\bt\ta\aroonosc
+  - title: asin
+    path: \api_docs\python\bt\ta\asin
+  - title: atan
+    path: \api_docs\python\bt\ta\atan
+  - title: atr
+    path: \api_docs\python\bt\ta\atr
+  - title: avgprice
+    path: \api_docs\python\bt\ta\avgprice
+  - title: bbands
+    path: \api_docs\python\bt\ta\bbands
+  - title: beta
+    path: \api_docs\python\bt\ta\beta
+  - title: bop
+    path: \api_docs\python\bt\ta\bop
+  - title: cci
+    path: \api_docs\python\bt\ta\cci
+  - title: cdl2crows
+    path: \api_docs\python\bt\ta\cdl2crows
+  - title: cdl3blackcrows
+    path: \api_docs\python\bt\ta\cdl3blackcrows
+  - title: cdl3inside
+    path: \api_docs\python\bt\ta\cdl3inside
+  - title: cdl3linestrike
+    path: \api_docs\python\bt\ta\cdl3linestrike
+  - title: cdl3outside
+    path: \api_docs\python\bt\ta\cdl3outside
+  - title: cdl3starsinsouth
+    path: \api_docs\python\bt\ta\cdl3starsinsouth
+  - title: cdl3whitesoldiers
+    path: \api_docs\python\bt\ta\cdl3whitesoldiers
+  - title: cdlabandonedbaby
+    path: \api_docs\python\bt\ta\cdlabandonedbaby
+  - title: cdladvanceblock
+    path: \api_docs\python\bt\ta\cdladvanceblock
+  - title: cdlbelthold
+    path: \api_docs\python\bt\ta\cdlbelthold
+  - title: cdlbreakaway
+    path: \api_docs\python\bt\ta\cdlbreakaway
+  - title: cdlclosingmarubozu
+    path: \api_docs\python\bt\ta\cdlclosingmarubozu
+  - title: cdlconcealbabyswall
+    path: \api_docs\python\bt\ta\cdlconcealbabyswall
+  - title: cdlcounterattack
+    path: \api_docs\python\bt\ta\cdlcounterattack
+  - title: cdldarkcloudcover
+    path: \api_docs\python\bt\ta\cdldarkcloudcover
+  - title: cdldoji
+    path: \api_docs\python\bt\ta\cdldoji
+  - title: cdldojistar
+    path: \api_docs\python\bt\ta\cdldojistar
+  - title: cdldragonflydoji
+    path: \api_docs\python\bt\ta\cdldragonflydoji
+  - title: cdlengulfing
+    path: \api_docs\python\bt\ta\cdlengulfing
+  - title: cdleveningdojistar
+    path: \api_docs\python\bt\ta\cdleveningdojistar
+  - title: cdleveningstar
+    path: \api_docs\python\bt\ta\cdleveningstar
+  - title: cdlgapsidesidewhite
+    path: \api_docs\python\bt\ta\cdlgapsidesidewhite
+  - title: cdlgravestonedoji
+    path: \api_docs\python\bt\ta\cdlgravestonedoji
+  - title: cdlhammer
+    path: \api_docs\python\bt\ta\cdlhammer
+  - title: cdlhangingman
+    path: \api_docs\python\bt\ta\cdlhangingman
+  - title: cdlharami
+    path: \api_docs\python\bt\ta\cdlharami
+  - title: cdlharamicross
+    path: \api_docs\python\bt\ta\cdlharamicross
+  - title: cdlhighwave
+    path: \api_docs\python\bt\ta\cdlhighwave
+  - title: cdlhikkake
+    path: \api_docs\python\bt\ta\cdlhikkake
+  - title: cdlhikkakemod
+    path: \api_docs\python\bt\ta\cdlhikkakemod
+  - title: cdlhomingpigeon
+    path: \api_docs\python\bt\ta\cdlhomingpigeon
+  - title: cdlidentical3crows
+    path: \api_docs\python\bt\ta\cdlidentical3crows
+  - title: cdlinneck
+    path: \api_docs\python\bt\ta\cdlinneck
+  - title: cdlinvertedhammer
+    path: \api_docs\python\bt\ta\cdlinvertedhammer
+  - title: cdlkicking
+    path: \api_docs\python\bt\ta\cdlkicking
+  - title: cdlkickingbylength
+    path: \api_docs\python\bt\ta\cdlkickingbylength
+  - title: cdlladderbottom
+    path: \api_docs\python\bt\ta\cdlladderbottom
+  - title: cdllongleggeddoji
+    path: \api_docs\python\bt\ta\cdllongleggeddoji
+  - title: cdllongline
+    path: \api_docs\python\bt\ta\cdllongline
+  - title: cdlmarubozu
+    path: \api_docs\python\bt\ta\cdlmarubozu
+  - title: cdlmatchinglow
+    path: \api_docs\python\bt\ta\cdlmatchinglow
+  - title: cdlmathold
+    path: \api_docs\python\bt\ta\cdlmathold
+  - title: cdlmorningdojistar
+    path: \api_docs\python\bt\ta\cdlmorningdojistar
+  - title: cdlmorningstar
+    path: \api_docs\python\bt\ta\cdlmorningstar
+  - title: cdlonneck
+    path: \api_docs\python\bt\ta\cdlonneck
+  - title: cdlpiercing
+    path: \api_docs\python\bt\ta\cdlpiercing
+  - title: cdlrickshawman
+    path: \api_docs\python\bt\ta\cdlrickshawman
+  - title: cdlrisefall3methods
+    path: \api_docs\python\bt\ta\cdlrisefall3methods
+  - title: cdlseparatinglines
+    path: \api_docs\python\bt\ta\cdlseparatinglines
+  - title: cdlshootingstar
+    path: \api_docs\python\bt\ta\cdlshootingstar
+  - title: cdlshortline
+    path: \api_docs\python\bt\ta\cdlshortline
+  - title: cdlspinningtop
+    path: \api_docs\python\bt\ta\cdlspinningtop
+  - title: cdlstalledpattern
+    path: \api_docs\python\bt\ta\cdlstalledpattern
+  - title: cdlsticksandwich
+    path: \api_docs\python\bt\ta\cdlsticksandwich
+  - title: cdltakuri
+    path: \api_docs\python\bt\ta\cdltakuri
+  - title: cdltasukigap
+    path: \api_docs\python\bt\ta\cdltasukigap
+  - title: cdlthrusting
+    path: \api_docs\python\bt\ta\cdlthrusting
+  - title: cdltristar
+    path: \api_docs\python\bt\ta\cdltristar
+  - title: cdlunique3river
+    path: \api_docs\python\bt\ta\cdlunique3river
+  - title: cdlupsidegap2crows
+    path: \api_docs\python\bt\ta\cdlupsidegap2crows
+  - title: cdlxsidegap3methods
+    path: \api_docs\python\bt\ta\cdlxsidegap3methods
+  - title: ceil
+    path: \api_docs\python\bt\ta\ceil
+  - title: cmo
+    path: \api_docs\python\bt\ta\cmo
+  - title: correl
+    path: \api_docs\python\bt\ta\correl
+  - title: cos
+    path: \api_docs\python\bt\ta\cos
+  - title: cosh
+    path: \api_docs\python\bt\ta\cosh
+  - title: crossover
+    path: \api_docs\python\bt\ta\crossover
+  - title: crossunder
+    path: \api_docs\python\bt\ta\crossunder
+  - title: dema
+    path: \api_docs\python\bt\ta\dema
+  - title: div
+    path: \api_docs\python\bt\ta\div
+  - title: dx
+    path: \api_docs\python\bt\ta\dx
+  - title: ema
+    path: \api_docs\python\bt\ta\ema
+  - title: exp
+    path: \api_docs\python\bt\ta\exp
+  - title: floor
+    path: \api_docs\python\bt\ta\floor
+  - title: kama
+    path: \api_docs\python\bt\ta\kama
+  - title: linearreg
+    path: \api_docs\python\bt\ta\linearreg
+  - title: ln
+    path: \api_docs\python\bt\ta\ln
+  - title: log10
+    path: \api_docs\python\bt\ta\log10
+  - title: ma
+    path: \api_docs\python\bt\ta\ma
+  - title: macd
+    path: \api_docs\python\bt\ta\macd
+  - title: macdext
+    path: \api_docs\python\bt\ta\macdext
+  - title: macdfix
+    path: \api_docs\python\bt\ta\macdfix
+  - title: mama
+    path: \api_docs\python\bt\ta\mama
+  - title: mavp
+    path: \api_docs\python\bt\ta\mavp
+  - title: max
+    path: \api_docs\python\bt\ta\max
+  - title: maxindex
+    path: \api_docs\python\bt\ta\maxindex
+  - title: medprice
+    path: \api_docs\python\bt\ta\medprice
+  - title: mfi
+    path: \api_docs\python\bt\ta\mfi
+  - title: midpoint
+    path: \api_docs\python\bt\ta\midpoint
+  - title: midprice
+    path: \api_docs\python\bt\ta\midprice
+  - title: min
+    path: \api_docs\python\bt\ta\min
+  - title: minindex
+    path: \api_docs\python\bt\ta\minindex
+  - title: minmax
+    path: \api_docs\python\bt\ta\minmax
+  - title: minmaxindex
+    path: \api_docs\python\bt\ta\minmaxindex
+  - title: mom
+    path: \api_docs\python\bt\ta\mom
+  - title: mult
+    path: \api_docs\python\bt\ta\mult
+  - title: natr
+    path: \api_docs\python\bt\ta\natr
+  - title: obv
+    path: \api_docs\python\bt\ta\obv
+  - title: ppo
+    path: \api_docs\python\bt\ta\ppo
+  - title: roc
+    path: \api_docs\python\bt\ta\roc
+  - title: rocp
+    path: \api_docs\python\bt\ta\rocp
+  - title: rocr
+    path: \api_docs\python\bt\ta\rocr
+  - title: rocr100
+    path: \api_docs\python\bt\ta\rocr100
+  - title: rsi
+    path: \api_docs\python\bt\ta\rsi
+  - title: sar
+    path: \api_docs\python\bt\ta\sar
+  - title: sarext
+    path: \api_docs\python\bt\ta\sarext
+  - title: sin
+    path: \api_docs\python\bt\ta\sin
+  - title: sinh
+    path: \api_docs\python\bt\ta\sinh
+  - title: sma
+    path: \api_docs\python\bt\ta\sma
+  - title: sqrt
+    path: \api_docs\python\bt\ta\sqrt
+  - title: stddev
+    path: \api_docs\python\bt\ta\stddev
+  - title: stoch
+    path: \api_docs\python\bt\ta\stoch
+  - title: stochf
+    path: \api_docs\python\bt\ta\stochf
+  - title: stochrsi
+    path: \api_docs\python\bt\ta\stochrsi
+  - title: sub
+    path: \api_docs\python\bt\ta\sub
+  - title: sum
+    path: \api_docs\python\bt\ta\sum
+  - title: t3
+    path: \api_docs\python\bt\ta\t3
+  - title: tan
+    path: \api_docs\python\bt\ta\tan
+  - title: tanh
+    path: \api_docs\python\bt\ta\tanh
+  - title: tema
+    path: \api_docs\python\bt\ta\tema
+  - title: trange
+    path: \api_docs\python\bt\ta\trange
+  - title: trima
+    path: \api_docs\python\bt\ta\trima
+  - title: trix
+    path: \api_docs\python\bt\ta\trix
+  - title: tsf
+    path: \api_docs\python\bt\ta\tsf
+  - title: typprice
+    path: \api_docs\python\bt\ta\typprice
+  - title: ultosc
+    path: \api_docs\python\bt\ta\ultosc
+  - title: var
+    path: \api_docs\python\bt\ta\var
+  - title: wclprice
+    path: \api_docs\python\bt\ta\wclprice
+  - title: willr
+    path: \api_docs\python\bt\ta\willr
+  - title: wma
+    path: \api_docs\python\bt\ta\wma
