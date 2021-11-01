@@ -13,30 +13,14 @@
 
 
 
-MIN(real[, timeperiod=?])
+
 
 <pre class="devsite-click-to-copy prettyprint lang-py tfo-signature-link">
-<code>bt.ta.min()
+<code>bt.ta.min(
+    *args, **kwargs
+) -> np.array
 </code></pre>
 
 
 
 <!-- Placeholder for "Used in" -->
-
-Lowest value over a specified period (Math Operators)
-
-#### Inputs:
-
-
-* <b>`real`</b>: (any ndarray)
-
-
-#### Parameters:
-
-
-* <b>`timeperiod`</b>: 30
-
-
-#### Outputs:
-
-real

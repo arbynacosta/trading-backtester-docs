@@ -13,24 +13,14 @@
 
 
 
-AD(high, low, close, volume)
+
 
 <pre class="devsite-click-to-copy prettyprint lang-py tfo-signature-link">
-<code>bt.ta.ad()
+<code>bt.ta.ad(
+    *args, **kwargs
+) -> np.array
 </code></pre>
 
 
 
 <!-- Placeholder for "Used in" -->
-
-Chaikin A/D Line (Volume Indicators)
-
-#### Inputs:
-
-
-* <b>`prices`</b>: ['high', 'low', 'close', 'volume']
-
-
-#### Outputs:
-
-real

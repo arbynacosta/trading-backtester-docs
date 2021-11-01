@@ -13,25 +13,14 @@
 
 
 
-OBV(real, volume)
+
 
 <pre class="devsite-click-to-copy prettyprint lang-py tfo-signature-link">
-<code>bt.ta.obv()
+<code>bt.ta.obv(
+    *args, **kwargs
+) -> np.array
 </code></pre>
 
 
 
 <!-- Placeholder for "Used in" -->
-
-On Balance Volume (Volume Indicators)
-
-#### Inputs:
-
-
-* <b>`real`</b>: (any ndarray)
-* <b>`prices`</b>: ['volume']
-
-
-#### Outputs:
-
-real

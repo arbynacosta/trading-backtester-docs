@@ -13,30 +13,14 @@
 
 
 
-ADXR(high, low, close[, timeperiod=?])
+
 
 <pre class="devsite-click-to-copy prettyprint lang-py tfo-signature-link">
-<code>bt.ta.adxr()
+<code>bt.ta.adxr(
+    *args, **kwargs
+) -> np.array
 </code></pre>
 
 
 
 <!-- Placeholder for "Used in" -->
-
-Average Directional Movement Index Rating (Momentum Indicators)
-
-#### Inputs:
-
-
-* <b>`prices`</b>: ['high', 'low', 'close']
-
-
-#### Parameters:
-
-
-* <b>`timeperiod`</b>: 14
-
-
-#### Outputs:
-
-real

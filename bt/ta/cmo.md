@@ -13,30 +13,14 @@
 
 
 
-CMO(real[, timeperiod=?])
+
 
 <pre class="devsite-click-to-copy prettyprint lang-py tfo-signature-link">
-<code>bt.ta.cmo()
+<code>bt.ta.cmo(
+    *args, **kwargs
+) -> np.array
 </code></pre>
 
 
 
 <!-- Placeholder for "Used in" -->
-
-Chande Momentum Oscillator (Momentum Indicators)
-
-#### Inputs:
-
-
-* <b>`real`</b>: (any ndarray)
-
-
-#### Parameters:
-
-
-* <b>`timeperiod`</b>: 14
-
-
-#### Outputs:
-
-real

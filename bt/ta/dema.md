@@ -13,30 +13,14 @@
 
 
 
-DEMA(real[, timeperiod=?])
+
 
 <pre class="devsite-click-to-copy prettyprint lang-py tfo-signature-link">
-<code>bt.ta.dema()
+<code>bt.ta.dema(
+    *args, **kwargs
+) -> np.array
 </code></pre>
 
 
 
 <!-- Placeholder for "Used in" -->
-
-Double Exponential Moving Average (Overlap Studies)
-
-#### Inputs:
-
-
-* <b>`real`</b>: (any ndarray)
-
-
-#### Parameters:
-
-
-* <b>`timeperiod`</b>: 30
-
-
-#### Outputs:
-
-real

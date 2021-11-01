@@ -13,31 +13,14 @@
 
 
 
-MINMAXINDEX(real[, timeperiod=?])
+
 
 <pre class="devsite-click-to-copy prettyprint lang-py tfo-signature-link">
-<code>bt.ta.minmaxindex()
+<code>bt.ta.minmaxindex(
+    *args, **kwargs
+) -> np.array
 </code></pre>
 
 
 
 <!-- Placeholder for "Used in" -->
-
-Indexes of lowest and highest values over a specified period (Math Operators)
-
-#### Inputs:
-
-
-* <b>`real`</b>: (any ndarray)
-
-
-#### Parameters:
-
-
-* <b>`timeperiod`</b>: 30
-
-
-#### Outputs:
-
-minidx
-maxidx

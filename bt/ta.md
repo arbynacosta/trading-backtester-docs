@@ -13,303 +13,345 @@
 
 
 
-Module containing technical analysis functions for the backtester.
+Module containing technical analysis functions.
 
 
 
 ## Functions
 
-[`acos(...)`](../bt/ta/acos.md): ACOS(real)
+[`acos(...)`](../bt/ta/acos.md)
 
-[`ad(...)`](../bt/ta/ad.md): AD(high, low, close, volume)
+[`ad(...)`](../bt/ta/ad.md)
 
-[`add(...)`](../bt/ta/add.md): ADD(real0, real1)
+[`add(...)`](../bt/ta/add.md)
 
-[`adosc(...)`](../bt/ta/adosc.md): ADOSC(high, low, close, volume[, fastperiod=?, slowperiod=?])
+[`adosc(...)`](../bt/ta/adosc.md)
 
-[`adx(...)`](../bt/ta/adx.md): ADX(high, low, close[, timeperiod=?])
+[`adx(...)`](../bt/ta/adx.md)
 
-[`adxr(...)`](../bt/ta/adxr.md): ADXR(high, low, close[, timeperiod=?])
+[`adxr(...)`](../bt/ta/adxr.md)
 
-[`apo(...)`](../bt/ta/apo.md): APO(real[, fastperiod=?, slowperiod=?, matype=?])
+[`alma(...)`](../bt/ta/alma.md): Arnaud Legoux Moving Average.
 
-[`aroon(...)`](../bt/ta/aroon.md): AROON(high, low[, timeperiod=?])
+[`apo(...)`](../bt/ta/apo.md)
 
-[`aroonosc(...)`](../bt/ta/aroonosc.md): AROONOSC(high, low[, timeperiod=?])
+[`aroon(...)`](../bt/ta/aroon.md)
 
-[`asin(...)`](../bt/ta/asin.md): ASIN(real)
+[`aroonosc(...)`](../bt/ta/aroonosc.md)
 
-[`atan(...)`](../bt/ta/atan.md): ATAN(real)
+[`asin(...)`](../bt/ta/asin.md)
 
-[`atr(...)`](../bt/ta/atr.md): ATR(high, low, close[, timeperiod=?])
+[`atan(...)`](../bt/ta/atan.md)
 
-[`avgprice(...)`](../bt/ta/avgprice.md): AVGPRICE(open, high, low, close)
+[`atr(...)`](../bt/ta/atr.md)
 
-[`bbands(...)`](../bt/ta/bbands.md): BBANDS(real[, timeperiod=?, nbdevup=?, nbdevdn=?, matype=?])
+[`avgprice(...)`](../bt/ta/avgprice.md)
 
-[`beta(...)`](../bt/ta/beta.md): BETA(real0, real1[, timeperiod=?])
+[`bb(...)`](../bt/ta/bb.md)
 
-[`bop(...)`](../bt/ta/bop.md): BOP(open, high, low, close)
+[`bbands(...)`](../bt/ta/bb.md)
 
-[`cci(...)`](../bt/ta/cci.md): CCI(high, low, close[, timeperiod=?])
+[`bbw(...)`](../bt/ta/bbw.md): Bollinger Bands Width.
 
-[`cdl2crows(...)`](../bt/ta/cdl2crows.md): CDL2CROWS(open, high, low, close)
+[`beta(...)`](../bt/ta/beta.md)
 
-[`cdl3blackcrows(...)`](../bt/ta/cdl3blackcrows.md): CDL3BLACKCROWS(open, high, low, close)
+[`bop(...)`](../bt/ta/bop.md)
 
-[`cdl3inside(...)`](../bt/ta/cdl3inside.md): CDL3INSIDE(open, high, low, close)
+[`cci(...)`](../bt/ta/cci.md)
 
-[`cdl3linestrike(...)`](../bt/ta/cdl3linestrike.md): CDL3LINESTRIKE(open, high, low, close)
+[`cdl2crows(...)`](../bt/ta/cdl2crows.md)
 
-[`cdl3outside(...)`](../bt/ta/cdl3outside.md): CDL3OUTSIDE(open, high, low, close)
+[`cdl3blackcrows(...)`](../bt/ta/cdl3blackcrows.md)
 
-[`cdl3starsinsouth(...)`](../bt/ta/cdl3starsinsouth.md): CDL3STARSINSOUTH(open, high, low, close)
+[`cdl3inside(...)`](../bt/ta/cdl3inside.md)
 
-[`cdl3whitesoldiers(...)`](../bt/ta/cdl3whitesoldiers.md): CDL3WHITESOLDIERS(open, high, low, close)
+[`cdl3linestrike(...)`](../bt/ta/cdl3linestrike.md)
 
-[`cdlabandonedbaby(...)`](../bt/ta/cdlabandonedbaby.md): CDLABANDONEDBABY(open, high, low, close[, penetration=?])
+[`cdl3outside(...)`](../bt/ta/cdl3outside.md)
 
-[`cdladvanceblock(...)`](../bt/ta/cdladvanceblock.md): CDLADVANCEBLOCK(open, high, low, close)
+[`cdl3starsinsouth(...)`](../bt/ta/cdl3starsinsouth.md)
 
-[`cdlbelthold(...)`](../bt/ta/cdlbelthold.md): CDLBELTHOLD(open, high, low, close)
+[`cdl3whitesoldiers(...)`](../bt/ta/cdl3whitesoldiers.md)
 
-[`cdlbreakaway(...)`](../bt/ta/cdlbreakaway.md): CDLBREAKAWAY(open, high, low, close)
+[`cdlabandonedbaby(...)`](../bt/ta/cdlabandonedbaby.md)
 
-[`cdlclosingmarubozu(...)`](../bt/ta/cdlclosingmarubozu.md): CDLCLOSINGMARUBOZU(open, high, low, close)
+[`cdladvanceblock(...)`](../bt/ta/cdladvanceblock.md)
 
-[`cdlconcealbabyswall(...)`](../bt/ta/cdlconcealbabyswall.md): CDLCONCEALBABYSWALL(open, high, low, close)
+[`cdlbelthold(...)`](../bt/ta/cdlbelthold.md)
 
-[`cdlcounterattack(...)`](../bt/ta/cdlcounterattack.md): CDLCOUNTERATTACK(open, high, low, close)
+[`cdlbreakaway(...)`](../bt/ta/cdlbreakaway.md)
 
-[`cdldarkcloudcover(...)`](../bt/ta/cdldarkcloudcover.md): CDLDARKCLOUDCOVER(open, high, low, close[, penetration=?])
+[`cdlclosingmarubozu(...)`](../bt/ta/cdlclosingmarubozu.md)
 
-[`cdldoji(...)`](../bt/ta/cdldoji.md): CDLDOJI(open, high, low, close)
+[`cdlconcealbabyswall(...)`](../bt/ta/cdlconcealbabyswall.md)
 
-[`cdldojistar(...)`](../bt/ta/cdldojistar.md): CDLDOJISTAR(open, high, low, close)
+[`cdlcounterattack(...)`](../bt/ta/cdlcounterattack.md)
 
-[`cdldragonflydoji(...)`](../bt/ta/cdldragonflydoji.md): CDLDRAGONFLYDOJI(open, high, low, close)
+[`cdldarkcloudcover(...)`](../bt/ta/cdldarkcloudcover.md)
 
-[`cdlengulfing(...)`](../bt/ta/cdlengulfing.md): CDLENGULFING(open, high, low, close)
+[`cdldoji(...)`](../bt/ta/cdldoji.md)
 
-[`cdleveningdojistar(...)`](../bt/ta/cdleveningdojistar.md): CDLEVENINGDOJISTAR(open, high, low, close[, penetration=?])
+[`cdldojistar(...)`](../bt/ta/cdldojistar.md)
 
-[`cdleveningstar(...)`](../bt/ta/cdleveningstar.md): CDLEVENINGSTAR(open, high, low, close[, penetration=?])
+[`cdldragonflydoji(...)`](../bt/ta/cdldragonflydoji.md)
 
-[`cdlgapsidesidewhite(...)`](../bt/ta/cdlgapsidesidewhite.md): CDLGAPSIDESIDEWHITE(open, high, low, close)
+[`cdlengulfing(...)`](../bt/ta/cdlengulfing.md)
 
-[`cdlgravestonedoji(...)`](../bt/ta/cdlgravestonedoji.md): CDLGRAVESTONEDOJI(open, high, low, close)
+[`cdleveningdojistar(...)`](../bt/ta/cdleveningdojistar.md)
 
-[`cdlhammer(...)`](../bt/ta/cdlhammer.md): CDLHAMMER(open, high, low, close)
+[`cdleveningstar(...)`](../bt/ta/cdleveningstar.md)
 
-[`cdlhangingman(...)`](../bt/ta/cdlhangingman.md): CDLHANGINGMAN(open, high, low, close)
+[`cdlgapsidesidewhite(...)`](../bt/ta/cdlgapsidesidewhite.md)
 
-[`cdlharami(...)`](../bt/ta/cdlharami.md): CDLHARAMI(open, high, low, close)
+[`cdlgravestonedoji(...)`](../bt/ta/cdlgravestonedoji.md)
 
-[`cdlharamicross(...)`](../bt/ta/cdlharamicross.md): CDLHARAMICROSS(open, high, low, close)
+[`cdlhammer(...)`](../bt/ta/cdlhammer.md)
 
-[`cdlhighwave(...)`](../bt/ta/cdlhighwave.md): CDLHIGHWAVE(open, high, low, close)
+[`cdlhangingman(...)`](../bt/ta/cdlhangingman.md)
 
-[`cdlhikkake(...)`](../bt/ta/cdlhikkake.md): CDLHIKKAKE(open, high, low, close)
+[`cdlharami(...)`](../bt/ta/cdlharami.md)
 
-[`cdlhikkakemod(...)`](../bt/ta/cdlhikkakemod.md): CDLHIKKAKEMOD(open, high, low, close)
+[`cdlharamicross(...)`](../bt/ta/cdlharamicross.md)
 
-[`cdlhomingpigeon(...)`](../bt/ta/cdlhomingpigeon.md): CDLHOMINGPIGEON(open, high, low, close)
+[`cdlhighwave(...)`](../bt/ta/cdlhighwave.md)
 
-[`cdlidentical3crows(...)`](../bt/ta/cdlidentical3crows.md): CDLIDENTICAL3CROWS(open, high, low, close)
+[`cdlhikkake(...)`](../bt/ta/cdlhikkake.md)
 
-[`cdlinneck(...)`](../bt/ta/cdlinneck.md): CDLINNECK(open, high, low, close)
+[`cdlhikkakemod(...)`](../bt/ta/cdlhikkakemod.md)
 
-[`cdlinvertedhammer(...)`](../bt/ta/cdlinvertedhammer.md): CDLINVERTEDHAMMER(open, high, low, close)
+[`cdlhomingpigeon(...)`](../bt/ta/cdlhomingpigeon.md)
 
-[`cdlkicking(...)`](../bt/ta/cdlkicking.md): CDLKICKING(open, high, low, close)
+[`cdlidentical3crows(...)`](../bt/ta/cdlidentical3crows.md)
 
-[`cdlkickingbylength(...)`](../bt/ta/cdlkickingbylength.md): CDLKICKINGBYLENGTH(open, high, low, close)
+[`cdlinneck(...)`](../bt/ta/cdlinneck.md)
 
-[`cdlladderbottom(...)`](../bt/ta/cdlladderbottom.md): CDLLADDERBOTTOM(open, high, low, close)
+[`cdlinvertedhammer(...)`](../bt/ta/cdlinvertedhammer.md)
 
-[`cdllongleggeddoji(...)`](../bt/ta/cdllongleggeddoji.md): CDLLONGLEGGEDDOJI(open, high, low, close)
+[`cdlkicking(...)`](../bt/ta/cdlkicking.md)
 
-[`cdllongline(...)`](../bt/ta/cdllongline.md): CDLLONGLINE(open, high, low, close)
+[`cdlkickingbylength(...)`](../bt/ta/cdlkickingbylength.md)
 
-[`cdlmarubozu(...)`](../bt/ta/cdlmarubozu.md): CDLMARUBOZU(open, high, low, close)
+[`cdlladderbottom(...)`](../bt/ta/cdlladderbottom.md)
 
-[`cdlmatchinglow(...)`](../bt/ta/cdlmatchinglow.md): CDLMATCHINGLOW(open, high, low, close)
+[`cdllongleggeddoji(...)`](../bt/ta/cdllongleggeddoji.md)
 
-[`cdlmathold(...)`](../bt/ta/cdlmathold.md): CDLMATHOLD(open, high, low, close[, penetration=?])
+[`cdllongline(...)`](../bt/ta/cdllongline.md)
 
-[`cdlmorningdojistar(...)`](../bt/ta/cdlmorningdojistar.md): CDLMORNINGDOJISTAR(open, high, low, close[, penetration=?])
+[`cdlmarubozu(...)`](../bt/ta/cdlmarubozu.md)
 
-[`cdlmorningstar(...)`](../bt/ta/cdlmorningstar.md): CDLMORNINGSTAR(open, high, low, close[, penetration=?])
+[`cdlmatchinglow(...)`](../bt/ta/cdlmatchinglow.md)
 
-[`cdlonneck(...)`](../bt/ta/cdlonneck.md): CDLONNECK(open, high, low, close)
+[`cdlmathold(...)`](../bt/ta/cdlmathold.md)
 
-[`cdlpiercing(...)`](../bt/ta/cdlpiercing.md): CDLPIERCING(open, high, low, close)
+[`cdlmorningdojistar(...)`](../bt/ta/cdlmorningdojistar.md)
 
-[`cdlrickshawman(...)`](../bt/ta/cdlrickshawman.md): CDLRICKSHAWMAN(open, high, low, close)
+[`cdlmorningstar(...)`](../bt/ta/cdlmorningstar.md)
 
-[`cdlrisefall3methods(...)`](../bt/ta/cdlrisefall3methods.md): CDLRISEFALL3METHODS(open, high, low, close)
+[`cdlonneck(...)`](../bt/ta/cdlonneck.md)
 
-[`cdlseparatinglines(...)`](../bt/ta/cdlseparatinglines.md): CDLSEPARATINGLINES(open, high, low, close)
+[`cdlpiercing(...)`](../bt/ta/cdlpiercing.md)
 
-[`cdlshootingstar(...)`](../bt/ta/cdlshootingstar.md): CDLSHOOTINGSTAR(open, high, low, close)
+[`cdlrickshawman(...)`](../bt/ta/cdlrickshawman.md)
 
-[`cdlshortline(...)`](../bt/ta/cdlshortline.md): CDLSHORTLINE(open, high, low, close)
+[`cdlrisefall3methods(...)`](../bt/ta/cdlrisefall3methods.md)
 
-[`cdlspinningtop(...)`](../bt/ta/cdlspinningtop.md): CDLSPINNINGTOP(open, high, low, close)
+[`cdlseparatinglines(...)`](../bt/ta/cdlseparatinglines.md)
 
-[`cdlstalledpattern(...)`](../bt/ta/cdlstalledpattern.md): CDLSTALLEDPATTERN(open, high, low, close)
+[`cdlshootingstar(...)`](../bt/ta/cdlshootingstar.md)
 
-[`cdlsticksandwich(...)`](../bt/ta/cdlsticksandwich.md): CDLSTICKSANDWICH(open, high, low, close)
+[`cdlshortline(...)`](../bt/ta/cdlshortline.md)
 
-[`cdltakuri(...)`](../bt/ta/cdltakuri.md): CDLTAKURI(open, high, low, close)
+[`cdlspinningtop(...)`](../bt/ta/cdlspinningtop.md)
 
-[`cdltasukigap(...)`](../bt/ta/cdltasukigap.md): CDLTASUKIGAP(open, high, low, close)
+[`cdlstalledpattern(...)`](../bt/ta/cdlstalledpattern.md)
 
-[`cdlthrusting(...)`](../bt/ta/cdlthrusting.md): CDLTHRUSTING(open, high, low, close)
+[`cdlsticksandwich(...)`](../bt/ta/cdlsticksandwich.md)
 
-[`cdltristar(...)`](../bt/ta/cdltristar.md): CDLTRISTAR(open, high, low, close)
+[`cdltakuri(...)`](../bt/ta/cdltakuri.md)
 
-[`cdlunique3river(...)`](../bt/ta/cdlunique3river.md): CDLUNIQUE3RIVER(open, high, low, close)
+[`cdltasukigap(...)`](../bt/ta/cdltasukigap.md)
 
-[`cdlupsidegap2crows(...)`](../bt/ta/cdlupsidegap2crows.md): CDLUPSIDEGAP2CROWS(open, high, low, close)
+[`cdlthrusting(...)`](../bt/ta/cdlthrusting.md)
 
-[`cdlxsidegap3methods(...)`](../bt/ta/cdlxsidegap3methods.md): CDLXSIDEGAP3METHODS(open, high, low, close)
+[`cdltristar(...)`](../bt/ta/cdltristar.md)
 
-[`ceil(...)`](../bt/ta/ceil.md): CEIL(real)
+[`cdlunique3river(...)`](../bt/ta/cdlunique3river.md)
 
-[`cmo(...)`](../bt/ta/cmo.md): CMO(real[, timeperiod=?])
+[`cdlupsidegap2crows(...)`](../bt/ta/cdlupsidegap2crows.md)
 
-[`correl(...)`](../bt/ta/correl.md): CORREL(real0, real1[, timeperiod=?])
+[`cdlxsidegap3methods(...)`](../bt/ta/cdlxsidegap3methods.md)
 
-[`cos(...)`](../bt/ta/cos.md): COS(real)
+[`ceil(...)`](../bt/ta/ceil.md)
 
-[`cosh(...)`](../bt/ta/cosh.md): COSH(real)
+[`change(...)`](../bt/ta/change.md): Difference between current value and previous.
 
-[`crossover(...)`](../bt/ta/crossover.md)
+[`cmo(...)`](../bt/ta/cmo.md)
 
-[`crossunder(...)`](../bt/ta/crossunder.md)
+[`correl(...)`](../bt/ta/correl.md)
 
-[`dema(...)`](../bt/ta/dema.md): DEMA(real[, timeperiod=?])
+[`cos(...)`](../bt/ta/cos.md)
 
-[`div(...)`](../bt/ta/div.md): DIV(real0, real1)
+[`cosh(...)`](../bt/ta/cosh.md)
 
-[`dx(...)`](../bt/ta/dx.md): DX(high, low, close[, timeperiod=?])
+[`cross(...)`](../bt/ta/cross.md): Checks if a cross between two series occured.
 
-[`ema(...)`](../bt/ta/ema.md): EMA(real[, timeperiod=?])
+[`crossover(...)`](../bt/ta/crossover.md): Checks if `series_1` crossed over `series_2`.
 
-[`exp(...)`](../bt/ta/exp.md): EXP(real)
+[`crossunder(...)`](../bt/ta/crossunder.md): Checks if `series_1` crossed under `series_2`.
 
-[`floor(...)`](../bt/ta/floor.md): FLOOR(real)
+[`dema(...)`](../bt/ta/dema.md)
 
-[`kama(...)`](../bt/ta/kama.md): KAMA(real[, timeperiod=?])
+[`div(...)`](../bt/ta/div.md)
 
-[`linearreg(...)`](../bt/ta/linearreg.md): LINEARREG(real[, timeperiod=?])
+[`dx(...)`](../bt/ta/dx.md)
 
-[`ln(...)`](../bt/ta/ln.md): LN(real)
+[`ema(...)`](../bt/ta/ema.md)
 
-[`log10(...)`](../bt/ta/log10.md): LOG10(real)
+[`exp(...)`](../bt/ta/exp.md)
 
-[`ma(...)`](../bt/ta/ma.md): MA(real[, timeperiod=?, matype=?])
+[`floor(...)`](../bt/ta/floor.md)
 
-[`macd(...)`](../bt/ta/macd.md): MACD(real[, fastperiod=?, slowperiod=?, signalperiod=?])
+[`highest(...)`](../bt/ta/highest.md): Highest value for a given number of bars back.
 
-[`macdext(...)`](../bt/ta/macdext.md): MACDEXT(real[, fastperiod=?, fastmatype=?, slowperiod=?, slowmatype=?, signalperiod=?, signalmatype=?])
+[`ht_dcperiod(...)`](../bt/ta/ht_dcperiod.md)
 
-[`macdfix(...)`](../bt/ta/macdfix.md): MACDFIX(real[, signalperiod=?])
+[`ht_dcphase(...)`](../bt/ta/ht_dcphase.md)
 
-[`mama(...)`](../bt/ta/mama.md): MAMA(real[, fastlimit=?, slowlimit=?])
+[`ht_phasor(...)`](../bt/ta/ht_phasor.md)
 
-[`mavp(...)`](../bt/ta/mavp.md): MAVP(real, periods[, minperiod=?, maxperiod=?, matype=?])
+[`ht_sine(...)`](../bt/ta/ht_sine.md)
 
-[`max(...)`](../bt/ta/max.md): MAX(real[, timeperiod=?])
+[`ht_trendline(...)`](../bt/ta/ht_trendline.md)
 
-[`maxindex(...)`](../bt/ta/maxindex.md): MAXINDEX(real[, timeperiod=?])
+[`ht_trendmode(...)`](../bt/ta/ht_trendmode.md)
 
-[`medprice(...)`](../bt/ta/medprice.md): MEDPRICE(high, low)
+[`kama(...)`](../bt/ta/kama.md)
 
-[`mfi(...)`](../bt/ta/mfi.md): MFI(high, low, close, volume[, timeperiod=?])
+[`linearreg(...)`](../bt/ta/linearreg.md)
 
-[`midpoint(...)`](../bt/ta/midpoint.md): MIDPOINT(real[, timeperiod=?])
+[`linearreg_angle(...)`](../bt/ta/linearreg_angle.md)
 
-[`midprice(...)`](../bt/ta/midprice.md): MIDPRICE(high, low[, timeperiod=?])
+[`linearreg_intercept(...)`](../bt/ta/linearreg_intercept.md)
 
-[`min(...)`](../bt/ta/min.md): MIN(real[, timeperiod=?])
+[`linearreg_slope(...)`](../bt/ta/linearreg_slope.md)
 
-[`minindex(...)`](../bt/ta/minindex.md): MININDEX(real[, timeperiod=?])
+[`ln(...)`](../bt/ta/ln.md)
 
-[`minmax(...)`](../bt/ta/minmax.md): MINMAX(real[, timeperiod=?])
+[`log10(...)`](../bt/ta/log10.md)
 
-[`minmaxindex(...)`](../bt/ta/minmaxindex.md): MINMAXINDEX(real[, timeperiod=?])
+[`lowest(...)`](../bt/ta/lowest.md): Lowest value for a given number of bars back.
 
-[`mom(...)`](../bt/ta/mom.md): MOM(real[, timeperiod=?])
+[`ma(...)`](../bt/ta/ma.md)
 
-[`mult(...)`](../bt/ta/mult.md): MULT(real0, real1)
+[`macd(...)`](../bt/ta/macd.md)
 
-[`natr(...)`](../bt/ta/natr.md): NATR(high, low, close[, timeperiod=?])
+[`macdext(...)`](../bt/ta/macdext.md)
 
-[`obv(...)`](../bt/ta/obv.md): OBV(real, volume)
+[`macdfix(...)`](../bt/ta/macdfix.md)
 
-[`ppo(...)`](../bt/ta/ppo.md): PPO(real[, fastperiod=?, slowperiod=?, matype=?])
+[`mama(...)`](../bt/ta/mama.md)
 
-[`roc(...)`](../bt/ta/roc.md): ROC(real[, timeperiod=?])
+[`mavp(...)`](../bt/ta/mavp.md)
 
-[`rocp(...)`](../bt/ta/rocp.md): ROCP(real[, timeperiod=?])
+[`max(...)`](../bt/ta/max.md)
 
-[`rocr(...)`](../bt/ta/rocr.md): ROCR(real[, timeperiod=?])
+[`maxindex(...)`](../bt/ta/maxindex.md)
 
-[`rocr100(...)`](../bt/ta/rocr100.md): ROCR100(real[, timeperiod=?])
+[`medprice(...)`](../bt/ta/medprice.md)
 
-[`rsi(...)`](../bt/ta/rsi.md): RSI(real[, timeperiod=?])
+[`mfi(...)`](../bt/ta/mfi.md)
 
-[`sar(...)`](../bt/ta/sar.md): SAR(high, low[, acceleration=?, maximum=?])
+[`midpoint(...)`](../bt/ta/midpoint.md)
 
-[`sarext(...)`](../bt/ta/sarext.md): SAREXT(high, low[, startvalue=?, offsetonreverse=?, accelerationinitlong=?, accelerationlong=?, accelerationmaxlong=?, accelerationinitshort=?, accelerationshort=?, accelerationmaxshort=?])
+[`midprice(...)`](../bt/ta/midprice.md)
 
-[`sin(...)`](../bt/ta/sin.md): SIN(real)
+[`min(...)`](../bt/ta/min.md)
 
-[`sinh(...)`](../bt/ta/sinh.md): SINH(real)
+[`minindex(...)`](../bt/ta/minindex.md)
 
-[`sma(...)`](../bt/ta/sma.md): SMA(real[, timeperiod=?])
+[`minmax(...)`](../bt/ta/minmax.md)
 
-[`sqrt(...)`](../bt/ta/sqrt.md): SQRT(real)
+[`minmaxindex(...)`](../bt/ta/minmaxindex.md)
 
-[`stddev(...)`](../bt/ta/stddev.md): STDDEV(real[, timeperiod=?, nbdev=?])
+[`minus_di(...)`](../bt/ta/minus_di.md)
 
-[`stoch(...)`](../bt/ta/stoch.md): STOCH(high, low, close[, fastk_period=?, slowk_period=?, slowk_matype=?, slowd_period=?, slowd_matype=?])
+[`minus_dm(...)`](../bt/ta/minus_dm.md)
 
-[`stochf(...)`](../bt/ta/stochf.md): STOCHF(high, low, close[, fastk_period=?, fastd_period=?, fastd_matype=?])
+[`mom(...)`](../bt/ta/mom.md)
 
-[`stochrsi(...)`](../bt/ta/stochrsi.md): STOCHRSI(real[, timeperiod=?, fastk_period=?, fastd_period=?, fastd_matype=?])
+[`mult(...)`](../bt/ta/mult.md)
 
-[`sub(...)`](../bt/ta/sub.md): SUB(real0, real1)
+[`natr(...)`](../bt/ta/natr.md)
 
-[`sum(...)`](../bt/ta/sum.md): SUM(real[, timeperiod=?])
+[`obv(...)`](../bt/ta/obv.md)
 
-[`t3(...)`](../bt/ta/t3.md): T3(real[, timeperiod=?, vfactor=?])
+[`plus_di(...)`](../bt/ta/plus_di.md)
 
-[`tan(...)`](../bt/ta/tan.md): TAN(real)
+[`plus_dm(...)`](../bt/ta/plus_dm.md)
 
-[`tanh(...)`](../bt/ta/tanh.md): TANH(real)
+[`ppo(...)`](../bt/ta/ppo.md)
 
-[`tema(...)`](../bt/ta/tema.md): TEMA(real[, timeperiod=?])
+[`roc(...)`](../bt/ta/roc.md)
 
-[`trange(...)`](../bt/ta/trange.md): TRANGE(high, low, close)
+[`rocp(...)`](../bt/ta/rocp.md)
 
-[`trima(...)`](../bt/ta/trima.md): TRIMA(real[, timeperiod=?])
+[`rocr(...)`](../bt/ta/rocr.md)
 
-[`trix(...)`](../bt/ta/trix.md): TRIX(real[, timeperiod=?])
+[`rocr100(...)`](../bt/ta/rocr100.md)
 
-[`tsf(...)`](../bt/ta/tsf.md): TSF(real[, timeperiod=?])
+[`rsi(...)`](../bt/ta/rsi.md)
 
-[`typprice(...)`](../bt/ta/typprice.md): TYPPRICE(high, low, close)
+[`sar(...)`](../bt/ta/sar.md)
 
-[`ultosc(...)`](../bt/ta/ultosc.md): ULTOSC(high, low, close[, timeperiod1=?, timeperiod2=?, timeperiod3=?])
+[`sarext(...)`](../bt/ta/sarext.md)
 
-[`var(...)`](../bt/ta/var.md): VAR(real[, timeperiod=?, nbdev=?])
+[`sin(...)`](../bt/ta/sin.md)
 
-[`wclprice(...)`](../bt/ta/wclprice.md): WCLPRICE(high, low, close)
+[`sinh(...)`](../bt/ta/sinh.md)
 
-[`willr(...)`](../bt/ta/willr.md): WILLR(high, low, close[, timeperiod=?])
+[`sma(...)`](../bt/ta/sma.md)
 
-[`wma(...)`](../bt/ta/wma.md): WMA(real[, timeperiod=?])
+[`sqrt(...)`](../bt/ta/sqrt.md)
+
+[`stddev(...)`](../bt/ta/stddev.md)
+
+[`stdev(...)`](../bt/ta/stdev.md): Standard deviation.
+
+[`stoch(...)`](../bt/ta/stoch.md)
+
+[`stochf(...)`](../bt/ta/stochf.md)
+
+[`stochrsi(...)`](../bt/ta/stochrsi.md)
+
+[`sub(...)`](../bt/ta/sub.md)
+
+[`sum(...)`](../bt/ta/sum.md)
+
+[`t3(...)`](../bt/ta/t3.md)
+
+[`tan(...)`](../bt/ta/tan.md)
+
+[`tanh(...)`](../bt/ta/tanh.md)
+
+[`tema(...)`](../bt/ta/tema.md)
+
+[`trange(...)`](../bt/ta/trange.md)
+
+[`trima(...)`](../bt/ta/trima.md)
+
+[`trix(...)`](../bt/ta/trix.md)
+
+[`tsf(...)`](../bt/ta/tsf.md)
+
+[`typprice(...)`](../bt/ta/typprice.md)
+
+[`ultosc(...)`](../bt/ta/ultosc.md)
+
+[`var(...)`](../bt/ta/var.md)
+
+[`wclprice(...)`](../bt/ta/wclprice.md)
+
+[`willr(...)`](../bt/ta/willr.md)
+
+[`wma(...)`](../bt/ta/wma.md)
 

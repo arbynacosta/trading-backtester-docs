@@ -13,30 +13,14 @@
 
 
 
-ROCR100(real[, timeperiod=?])
+
 
 <pre class="devsite-click-to-copy prettyprint lang-py tfo-signature-link">
-<code>bt.ta.rocr100()
+<code>bt.ta.rocr100(
+    *args, **kwargs
+) -> np.array
 </code></pre>
 
 
 
 <!-- Placeholder for "Used in" -->
-
-Rate of change ratio 100 scale: (real/prevPrice)*100 (Momentum Indicators)
-
-#### Inputs:
-
-
-* <b>`real`</b>: (any ndarray)
-
-
-#### Parameters:
-
-
-* <b>`timeperiod`</b>: 10
-
-
-#### Outputs:
-
-real

@@ -13,32 +13,14 @@
 
 
 
-MAMA(real[, fastlimit=?, slowlimit=?])
+
 
 <pre class="devsite-click-to-copy prettyprint lang-py tfo-signature-link">
-<code>bt.ta.mama()
+<code>bt.ta.mama(
+    *args, **kwargs
+) -> np.array
 </code></pre>
 
 
 
 <!-- Placeholder for "Used in" -->
-
-MESA Adaptive Moving Average (Overlap Studies)
-
-#### Inputs:
-
-
-* <b>`real`</b>: (any ndarray)
-
-
-#### Parameters:
-
-
-* <b>`fastlimit`</b>: 0.5
-* <b>`slowlimit`</b>: 0.05
-
-
-#### Outputs:
-
-mama
-fama

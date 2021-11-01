@@ -13,24 +13,14 @@
 
 
 
-LOG10(real)
+
 
 <pre class="devsite-click-to-copy prettyprint lang-py tfo-signature-link">
-<code>bt.ta.log10()
+<code>bt.ta.log10(
+    *args, **kwargs
+) -> np.array
 </code></pre>
 
 
 
 <!-- Placeholder for "Used in" -->
-
-Vector Log10 (Math Transform)
-
-#### Inputs:
-
-
-* <b>`real`</b>: (any ndarray)
-
-
-#### Outputs:
-
-real

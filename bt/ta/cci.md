@@ -13,30 +13,14 @@
 
 
 
-CCI(high, low, close[, timeperiod=?])
+
 
 <pre class="devsite-click-to-copy prettyprint lang-py tfo-signature-link">
-<code>bt.ta.cci()
+<code>bt.ta.cci(
+    *args, **kwargs
+) -> np.array
 </code></pre>
 
 
 
 <!-- Placeholder for "Used in" -->
-
-Commodity Channel Index (Momentum Indicators)
-
-#### Inputs:
-
-
-* <b>`prices`</b>: ['high', 'low', 'close']
-
-
-#### Parameters:
-
-
-* <b>`timeperiod`</b>: 14
-
-
-#### Outputs:
-
-real

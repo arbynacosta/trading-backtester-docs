@@ -13,30 +13,14 @@
 
 
 
-TRIX(real[, timeperiod=?])
+
 
 <pre class="devsite-click-to-copy prettyprint lang-py tfo-signature-link">
-<code>bt.ta.trix()
+<code>bt.ta.trix(
+    *args, **kwargs
+) -> np.array
 </code></pre>
 
 
 
 <!-- Placeholder for "Used in" -->
-
-1-day Rate-Of-Change (ROC) of a Triple Smooth EMA (Momentum Indicators)
-
-#### Inputs:
-
-
-* <b>`real`</b>: (any ndarray)
-
-
-#### Parameters:
-
-
-* <b>`timeperiod`</b>: 30
-
-
-#### Outputs:
-
-real

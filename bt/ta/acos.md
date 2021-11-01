@@ -13,24 +13,14 @@
 
 
 
-ACOS(real)
+
 
 <pre class="devsite-click-to-copy prettyprint lang-py tfo-signature-link">
-<code>bt.ta.acos()
+<code>bt.ta.acos(
+    *args, **kwargs
+) -> np.array
 </code></pre>
 
 
 
 <!-- Placeholder for "Used in" -->
-
-Vector Trigonometric ACos (Math Transform)
-
-#### Inputs:
-
-
-* <b>`real`</b>: (any ndarray)
-
-
-#### Outputs:
-
-real

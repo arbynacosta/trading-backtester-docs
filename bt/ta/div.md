@@ -13,25 +13,14 @@
 
 
 
-DIV(real0, real1)
+
 
 <pre class="devsite-click-to-copy prettyprint lang-py tfo-signature-link">
-<code>bt.ta.div()
+<code>bt.ta.div(
+    *args, **kwargs
+) -> np.array
 </code></pre>
 
 
 
 <!-- Placeholder for "Used in" -->
-
-Vector Arithmetic Div (Math Operators)
-
-#### Inputs:
-
-
-* <b>`real0`</b>: (any ndarray)
-* <b>`real1`</b>: (any ndarray)
-
-
-#### Outputs:
-
-real

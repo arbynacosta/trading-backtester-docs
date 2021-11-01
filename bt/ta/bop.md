@@ -13,24 +13,14 @@
 
 
 
-BOP(open, high, low, close)
+
 
 <pre class="devsite-click-to-copy prettyprint lang-py tfo-signature-link">
-<code>bt.ta.bop()
+<code>bt.ta.bop(
+    *args, **kwargs
+) -> np.array
 </code></pre>
 
 
 
 <!-- Placeholder for "Used in" -->
-
-Balance Of Power (Momentum Indicators)
-
-#### Inputs:
-
-
-* <b>`prices`</b>: ['open', 'high', 'low', 'close']
-
-
-#### Outputs:
-
-real

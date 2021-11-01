@@ -13,30 +13,14 @@
 
 
 
-LINEARREG(real[, timeperiod=?])
+
 
 <pre class="devsite-click-to-copy prettyprint lang-py tfo-signature-link">
-<code>bt.ta.linearreg()
+<code>bt.ta.linearreg(
+    *args, **kwargs
+) -> np.array
 </code></pre>
 
 
 
 <!-- Placeholder for "Used in" -->
-
-Linear Regression (Statistic Functions)
-
-#### Inputs:
-
-
-* <b>`real`</b>: (any ndarray)
-
-
-#### Parameters:
-
-
-* <b>`timeperiod`</b>: 14
-
-
-#### Outputs:
-
-real

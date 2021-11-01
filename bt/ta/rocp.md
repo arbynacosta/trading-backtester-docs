@@ -13,30 +13,14 @@
 
 
 
-ROCP(real[, timeperiod=?])
+
 
 <pre class="devsite-click-to-copy prettyprint lang-py tfo-signature-link">
-<code>bt.ta.rocp()
+<code>bt.ta.rocp(
+    *args, **kwargs
+) -> np.array
 </code></pre>
 
 
 
 <!-- Placeholder for "Used in" -->
-
-Rate of change Percentage: (real-prevPrice)/prevPrice (Momentum Indicators)
-
-#### Inputs:
-
-
-* <b>`real`</b>: (any ndarray)
-
-
-#### Parameters:
-
-
-* <b>`timeperiod`</b>: 10
-
-
-#### Outputs:
-
-real

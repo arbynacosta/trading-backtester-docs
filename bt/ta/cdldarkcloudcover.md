@@ -13,30 +13,14 @@
 
 
 
-CDLDARKCLOUDCOVER(open, high, low, close[, penetration=?])
+
 
 <pre class="devsite-click-to-copy prettyprint lang-py tfo-signature-link">
-<code>bt.ta.cdldarkcloudcover()
+<code>bt.ta.cdldarkcloudcover(
+    *args, **kwargs
+) -> np.array
 </code></pre>
 
 
 
 <!-- Placeholder for "Used in" -->
-
-Dark Cloud Cover (Pattern Recognition)
-
-#### Inputs:
-
-
-* <b>`prices`</b>: ['open', 'high', 'low', 'close']
-
-
-#### Parameters:
-
-
-* <b>`penetration`</b>: 0.5
-
-
-#### Outputs:
-
-integer (values are -100, 0 or 100)

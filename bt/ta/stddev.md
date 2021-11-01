@@ -13,31 +13,14 @@
 
 
 
-STDDEV(real[, timeperiod=?, nbdev=?])
+
 
 <pre class="devsite-click-to-copy prettyprint lang-py tfo-signature-link">
-<code>bt.ta.stddev()
+<code>bt.ta.stddev(
+    *args, **kwargs
+) -> np.array
 </code></pre>
 
 
 
 <!-- Placeholder for "Used in" -->
-
-Standard Deviation (Statistic Functions)
-
-#### Inputs:
-
-
-* <b>`real`</b>: (any ndarray)
-
-
-#### Parameters:
-
-
-* <b>`timeperiod`</b>: 5
-* <b>`nbdev`</b>: 1
-
-
-#### Outputs:
-
-real

@@ -13,31 +13,14 @@
 
 
 
-BETA(real0, real1[, timeperiod=?])
+
 
 <pre class="devsite-click-to-copy prettyprint lang-py tfo-signature-link">
-<code>bt.ta.beta()
+<code>bt.ta.beta(
+    *args, **kwargs
+) -> np.array
 </code></pre>
 
 
 
 <!-- Placeholder for "Used in" -->
-
-Beta (Statistic Functions)
-
-#### Inputs:
-
-
-* <b>`real0`</b>: (any ndarray)
-* <b>`real1`</b>: (any ndarray)
-
-
-#### Parameters:
-
-
-* <b>`timeperiod`</b>: 5
-
-
-#### Outputs:
-
-real

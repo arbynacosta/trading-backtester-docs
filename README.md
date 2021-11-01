@@ -19,21 +19,21 @@ trading-backtester Library.
 
 ## Modules
 
-[`config`](./bt/config.md) module: Module containing the configuration data class for the backtester.
+[`exceptions`](./bt/exceptions.md) module: Module containing custom errors for the backtester.
 
-[`order`](./bt/order.md) module: Module containing order constants and classes for the backtester.
+[`position`](./bt/position.md) module: Module containing position constants.
 
-[`position`](./bt/position.md) module: Module containing position constants and classes for the backtester.
-
-[`ta`](./bt/ta.md) module: Module containing technical analysis functions for the backtester.
+[`ta`](./bt/ta.md) module: Module containing technical analysis functions.
 
 ## Classes
 
+[`class AssetConfig`](./bt/AssetConfig.md): Asset-level configuration. Should always be an element of a list.
+
+[`class AttrDict`](./bt/AttrDict.md): Attribute-only access dictionary class.
+
 [`class Backtester`](./bt/Backtester.md): Base backtester class.
 
-[`class BacktesterConfig`](./bt/config/BacktesterConfig.md): Class representation of a backtester configuration.
-
-[`class BacktesterExchange`](./bt/BacktesterExchange.md): Exchange/Broker abstraction for the backtester.
+[`class BacktesterConfig`](./bt/BacktesterConfig.md): Class representation of a backtester configuration.
 
 [`class BacktesterStrategy`](./bt/BacktesterStrategy.md): Base backtester strategy class.
 

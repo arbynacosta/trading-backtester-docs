@@ -13,31 +13,14 @@
 
 
 
-CORREL(real0, real1[, timeperiod=?])
+
 
 <pre class="devsite-click-to-copy prettyprint lang-py tfo-signature-link">
-<code>bt.ta.correl()
+<code>bt.ta.correl(
+    *args, **kwargs
+) -> np.array
 </code></pre>
 
 
 
 <!-- Placeholder for "Used in" -->
-
-Pearson's Correlation Coefficient (r) (Statistic Functions)
-
-#### Inputs:
-
-
-* <b>`real0`</b>: (any ndarray)
-* <b>`real1`</b>: (any ndarray)
-
-
-#### Parameters:
-
-
-* <b>`timeperiod`</b>: 30
-
-
-#### Outputs:
-
-real

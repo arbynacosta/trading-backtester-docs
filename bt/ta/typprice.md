@@ -13,24 +13,14 @@
 
 
 
-TYPPRICE(high, low, close)
+
 
 <pre class="devsite-click-to-copy prettyprint lang-py tfo-signature-link">
-<code>bt.ta.typprice()
+<code>bt.ta.typprice(
+    *args, **kwargs
+) -> np.array
 </code></pre>
 
 
 
 <!-- Placeholder for "Used in" -->
-
-Typical Price (Price Transform)
-
-#### Inputs:
-
-
-* <b>`prices`</b>: ['high', 'low', 'close']
-
-
-#### Outputs:
-
-real

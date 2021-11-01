@@ -13,31 +13,14 @@
 
 
 
-AROON(high, low[, timeperiod=?])
+
 
 <pre class="devsite-click-to-copy prettyprint lang-py tfo-signature-link">
-<code>bt.ta.aroon()
+<code>bt.ta.aroon(
+    *args, **kwargs
+) -> np.array
 </code></pre>
 
 
 
 <!-- Placeholder for "Used in" -->
-
-Aroon (Momentum Indicators)
-
-#### Inputs:
-
-
-* <b>`prices`</b>: ['high', 'low']
-
-
-#### Parameters:
-
-
-* <b>`timeperiod`</b>: 14
-
-
-#### Outputs:
-
-aroondown
-aroonup

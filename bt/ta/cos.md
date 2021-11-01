@@ -13,24 +13,14 @@
 
 
 
-COS(real)
+
 
 <pre class="devsite-click-to-copy prettyprint lang-py tfo-signature-link">
-<code>bt.ta.cos()
+<code>bt.ta.cos(
+    *args, **kwargs
+) -> np.array
 </code></pre>
 
 
 
 <!-- Placeholder for "Used in" -->
-
-Vector Trigonometric Cos (Math Transform)
-
-#### Inputs:
-
-
-* <b>`real`</b>: (any ndarray)
-
-
-#### Outputs:
-
-real

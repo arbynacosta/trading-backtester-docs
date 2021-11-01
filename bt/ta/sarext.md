@@ -13,37 +13,14 @@
 
 
 
-SAREXT(high, low[, startvalue=?, offsetonreverse=?, accelerationinitlong=?, accelerationlong=?, accelerationmaxlong=?, accelerationinitshort=?, accelerationshort=?, accelerationmaxshort=?])
+
 
 <pre class="devsite-click-to-copy prettyprint lang-py tfo-signature-link">
-<code>bt.ta.sarext()
+<code>bt.ta.sarext(
+    *args, **kwargs
+) -> np.array
 </code></pre>
 
 
 
 <!-- Placeholder for "Used in" -->
-
-Parabolic SAR - Extended (Overlap Studies)
-
-#### Inputs:
-
-
-* <b>`prices`</b>: ['high', 'low']
-
-
-#### Parameters:
-
-
-* <b>`startvalue`</b>: 0
-* <b>`offsetonreverse`</b>: 0
-* <b>`accelerationinitlong`</b>: 0.02
-* <b>`accelerationlong`</b>: 0.02
-* <b>`accelerationmaxlong`</b>: 0.2
-* <b>`accelerationinitshort`</b>: 0.02
-* <b>`accelerationshort`</b>: 0.02
-* <b>`accelerationmaxshort`</b>: 0.2
-
-
-#### Outputs:
-
-real

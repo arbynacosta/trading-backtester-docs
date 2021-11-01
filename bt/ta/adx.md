@@ -13,30 +13,14 @@
 
 
 
-ADX(high, low, close[, timeperiod=?])
+
 
 <pre class="devsite-click-to-copy prettyprint lang-py tfo-signature-link">
-<code>bt.ta.adx()
+<code>bt.ta.adx(
+    *args, **kwargs
+) -> np.array
 </code></pre>
 
 
 
 <!-- Placeholder for "Used in" -->
-
-Average Directional Movement Index (Momentum Indicators)
-
-#### Inputs:
-
-
-* <b>`prices`</b>: ['high', 'low', 'close']
-
-
-#### Parameters:
-
-
-* <b>`timeperiod`</b>: 14
-
-
-#### Outputs:
-
-real

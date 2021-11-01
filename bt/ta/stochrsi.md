@@ -13,34 +13,14 @@
 
 
 
-STOCHRSI(real[, timeperiod=?, fastk_period=?, fastd_period=?, fastd_matype=?])
+
 
 <pre class="devsite-click-to-copy prettyprint lang-py tfo-signature-link">
-<code>bt.ta.stochrsi()
+<code>bt.ta.stochrsi(
+    *args, **kwargs
+) -> np.array
 </code></pre>
 
 
 
 <!-- Placeholder for "Used in" -->
-
-Stochastic Relative Strength Index (Momentum Indicators)
-
-#### Inputs:
-
-
-* <b>`real`</b>: (any ndarray)
-
-
-#### Parameters:
-
-
-* <b>`timeperiod`</b>: 14
-* <b>`fastk_period`</b>: 5
-* <b>`fastd_period`</b>: 3
-* <b>`fastd_matype`</b>: 0
-
-
-#### Outputs:
-
-fastk
-fastd

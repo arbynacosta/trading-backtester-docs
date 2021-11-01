@@ -13,24 +13,14 @@
 
 
 
-CDLSPINNINGTOP(open, high, low, close)
+
 
 <pre class="devsite-click-to-copy prettyprint lang-py tfo-signature-link">
-<code>bt.ta.cdlspinningtop()
+<code>bt.ta.cdlspinningtop(
+    *args, **kwargs
+) -> np.array
 </code></pre>
 
 
 
 <!-- Placeholder for "Used in" -->
-
-Spinning Top (Pattern Recognition)
-
-#### Inputs:
-
-
-* <b>`prices`</b>: ['open', 'high', 'low', 'close']
-
-
-#### Outputs:
-
-integer (values are -100, 0 or 100)

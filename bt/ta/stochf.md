@@ -13,33 +13,14 @@
 
 
 
-STOCHF(high, low, close[, fastk_period=?, fastd_period=?, fastd_matype=?])
+
 
 <pre class="devsite-click-to-copy prettyprint lang-py tfo-signature-link">
-<code>bt.ta.stochf()
+<code>bt.ta.stochf(
+    *args, **kwargs
+) -> np.array
 </code></pre>
 
 
 
 <!-- Placeholder for "Used in" -->
-
-Stochastic Fast (Momentum Indicators)
-
-#### Inputs:
-
-
-* <b>`prices`</b>: ['high', 'low', 'close']
-
-
-#### Parameters:
-
-
-* <b>`fastk_period`</b>: 5
-* <b>`fastd_period`</b>: 3
-* <b>`fastd_matype`</b>: 0
-
-
-#### Outputs:
-
-fastk
-fastd

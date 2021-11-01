@@ -13,24 +13,14 @@
 
 
 
-MEDPRICE(high, low)
+
 
 <pre class="devsite-click-to-copy prettyprint lang-py tfo-signature-link">
-<code>bt.ta.medprice()
+<code>bt.ta.medprice(
+    *args, **kwargs
+) -> np.array
 </code></pre>
 
 
 
 <!-- Placeholder for "Used in" -->
-
-Median Price (Price Transform)
-
-#### Inputs:
-
-
-* <b>`prices`</b>: ['high', 'low']
-
-
-#### Outputs:
-
-real

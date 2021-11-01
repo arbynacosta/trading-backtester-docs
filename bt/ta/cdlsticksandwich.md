@@ -13,24 +13,14 @@
 
 
 
-CDLSTICKSANDWICH(open, high, low, close)
+
 
 <pre class="devsite-click-to-copy prettyprint lang-py tfo-signature-link">
-<code>bt.ta.cdlsticksandwich()
+<code>bt.ta.cdlsticksandwich(
+    *args, **kwargs
+) -> np.array
 </code></pre>
 
 
 
 <!-- Placeholder for "Used in" -->
-
-Stick Sandwich (Pattern Recognition)
-
-#### Inputs:
-
-
-* <b>`prices`</b>: ['open', 'high', 'low', 'close']
-
-
-#### Outputs:
-
-integer (values are -100, 0 or 100)

@@ -3,26 +3,24 @@ toc:
   section:
   - title: Overview
     path: \api_docs\python\bt
+  - title: AssetConfig
+    path: \api_docs\python\bt\AssetConfig
+  - title: AttrDict
+    path: \api_docs\python\bt\AttrDict
   - title: Backtester
     path: \api_docs\python\bt\Backtester
-  - title: BacktesterExchange
-    path: \api_docs\python\bt\BacktesterExchange
+  - title: BacktesterConfig
+    path: \api_docs\python\bt\BacktesterConfig
   - title: BacktesterStrategy
     path: \api_docs\python\bt\BacktesterStrategy
-- title: bt.config
+- title: bt.exceptions
   section:
   - title: Overview
-    path: \api_docs\python\bt\config
-  - title: AssetConfig
-    path: \api_docs\python\bt\config\AssetConfig
-  - title: AttrDict
-    path: \api_docs\python\bt\config\AttrDict
-  - title: BacktesterConfig
-    path: \api_docs\python\bt\config\BacktesterConfig
-- title: bt.order
-  section:
-  - title: Overview
-    path: \api_docs\python\bt\order
+    path: \api_docs\python\bt\exceptions
+  - title: BacktesterException
+    path: \api_docs\python\bt\exceptions\BacktesterException
+  - title: InsufficientBalanceError
+    path: \api_docs\python\bt\exceptions\InsufficientBalanceError
 - title: bt.position
   section:
   - title: Overview
@@ -43,6 +41,8 @@ toc:
     path: \api_docs\python\bt\ta\adx
   - title: adxr
     path: \api_docs\python\bt\ta\adxr
+  - title: alma
+    path: \api_docs\python\bt\ta\alma
   - title: apo
     path: \api_docs\python\bt\ta\apo
   - title: aroon
@@ -57,8 +57,10 @@ toc:
     path: \api_docs\python\bt\ta\atr
   - title: avgprice
     path: \api_docs\python\bt\ta\avgprice
-  - title: bbands
-    path: \api_docs\python\bt\ta\bbands
+  - title: bb
+    path: \api_docs\python\bt\ta\bb
+  - title: bbw
+    path: \api_docs\python\bt\ta\bbw
   - title: beta
     path: \api_docs\python\bt\ta\beta
   - title: bop
@@ -189,6 +191,8 @@ toc:
     path: \api_docs\python\bt\ta\cdlxsidegap3methods
   - title: ceil
     path: \api_docs\python\bt\ta\ceil
+  - title: change
+    path: \api_docs\python\bt\ta\change
   - title: cmo
     path: \api_docs\python\bt\ta\cmo
   - title: correl
@@ -197,6 +201,8 @@ toc:
     path: \api_docs\python\bt\ta\cos
   - title: cosh
     path: \api_docs\python\bt\ta\cosh
+  - title: cross
+    path: \api_docs\python\bt\ta\cross
   - title: crossover
     path: \api_docs\python\bt\ta\crossover
   - title: crossunder
@@ -213,14 +219,36 @@ toc:
     path: \api_docs\python\bt\ta\exp
   - title: floor
     path: \api_docs\python\bt\ta\floor
+  - title: highest
+    path: \api_docs\python\bt\ta\highest
+  - title: ht_dcperiod
+    path: \api_docs\python\bt\ta\ht_dcperiod
+  - title: ht_dcphase
+    path: \api_docs\python\bt\ta\ht_dcphase
+  - title: ht_phasor
+    path: \api_docs\python\bt\ta\ht_phasor
+  - title: ht_sine
+    path: \api_docs\python\bt\ta\ht_sine
+  - title: ht_trendline
+    path: \api_docs\python\bt\ta\ht_trendline
+  - title: ht_trendmode
+    path: \api_docs\python\bt\ta\ht_trendmode
   - title: kama
     path: \api_docs\python\bt\ta\kama
   - title: linearreg
     path: \api_docs\python\bt\ta\linearreg
+  - title: linearreg_angle
+    path: \api_docs\python\bt\ta\linearreg_angle
+  - title: linearreg_intercept
+    path: \api_docs\python\bt\ta\linearreg_intercept
+  - title: linearreg_slope
+    path: \api_docs\python\bt\ta\linearreg_slope
   - title: ln
     path: \api_docs\python\bt\ta\ln
   - title: log10
     path: \api_docs\python\bt\ta\log10
+  - title: lowest
+    path: \api_docs\python\bt\ta\lowest
   - title: ma
     path: \api_docs\python\bt\ta\ma
   - title: macd
@@ -253,6 +281,10 @@ toc:
     path: \api_docs\python\bt\ta\minmax
   - title: minmaxindex
     path: \api_docs\python\bt\ta\minmaxindex
+  - title: minus_di
+    path: \api_docs\python\bt\ta\minus_di
+  - title: minus_dm
+    path: \api_docs\python\bt\ta\minus_dm
   - title: mom
     path: \api_docs\python\bt\ta\mom
   - title: mult
@@ -261,6 +293,10 @@ toc:
     path: \api_docs\python\bt\ta\natr
   - title: obv
     path: \api_docs\python\bt\ta\obv
+  - title: plus_di
+    path: \api_docs\python\bt\ta\plus_di
+  - title: plus_dm
+    path: \api_docs\python\bt\ta\plus_dm
   - title: ppo
     path: \api_docs\python\bt\ta\ppo
   - title: roc
@@ -287,6 +323,8 @@ toc:
     path: \api_docs\python\bt\ta\sqrt
   - title: stddev
     path: \api_docs\python\bt\ta\stddev
+  - title: stdev
+    path: \api_docs\python\bt\ta\stdev
   - title: stoch
     path: \api_docs\python\bt\ta\stoch
   - title: stochf

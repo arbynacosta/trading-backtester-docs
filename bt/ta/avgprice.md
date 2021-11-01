@@ -13,24 +13,14 @@
 
 
 
-AVGPRICE(open, high, low, close)
+
 
 <pre class="devsite-click-to-copy prettyprint lang-py tfo-signature-link">
-<code>bt.ta.avgprice()
+<code>bt.ta.avgprice(
+    *args, **kwargs
+) -> np.array
 </code></pre>
 
 
 
 <!-- Placeholder for "Used in" -->
-
-Average Price (Price Transform)
-
-#### Inputs:
-
-
-* <b>`prices`</b>: ['open', 'high', 'low', 'close']
-
-
-#### Outputs:
-
-real

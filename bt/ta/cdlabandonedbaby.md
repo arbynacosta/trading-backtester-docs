@@ -13,30 +13,14 @@
 
 
 
-CDLABANDONEDBABY(open, high, low, close[, penetration=?])
+
 
 <pre class="devsite-click-to-copy prettyprint lang-py tfo-signature-link">
-<code>bt.ta.cdlabandonedbaby()
+<code>bt.ta.cdlabandonedbaby(
+    *args, **kwargs
+) -> np.array
 </code></pre>
 
 
 
 <!-- Placeholder for "Used in" -->
-
-Abandoned Baby (Pattern Recognition)
-
-#### Inputs:
-
-
-* <b>`prices`</b>: ['open', 'high', 'low', 'close']
-
-
-#### Parameters:
-
-
-* <b>`penetration`</b>: 0.3
-
-
-#### Outputs:
-
-integer (values are -100, 0 or 100)

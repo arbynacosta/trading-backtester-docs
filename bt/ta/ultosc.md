@@ -13,32 +13,14 @@
 
 
 
-ULTOSC(high, low, close[, timeperiod1=?, timeperiod2=?, timeperiod3=?])
+
 
 <pre class="devsite-click-to-copy prettyprint lang-py tfo-signature-link">
-<code>bt.ta.ultosc()
+<code>bt.ta.ultosc(
+    *args, **kwargs
+) -> np.array
 </code></pre>
 
 
 
 <!-- Placeholder for "Used in" -->
-
-Ultimate Oscillator (Momentum Indicators)
-
-#### Inputs:
-
-
-* <b>`prices`</b>: ['high', 'low', 'close']
-
-
-#### Parameters:
-
-
-* <b>`timeperiod1`</b>: 7
-* <b>`timeperiod2`</b>: 14
-* <b>`timeperiod3`</b>: 28
-
-
-#### Outputs:
-
-real

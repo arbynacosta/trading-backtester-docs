@@ -13,30 +13,14 @@
 
 
 
-CDLEVENINGSTAR(open, high, low, close[, penetration=?])
+
 
 <pre class="devsite-click-to-copy prettyprint lang-py tfo-signature-link">
-<code>bt.ta.cdleveningstar()
+<code>bt.ta.cdleveningstar(
+    *args, **kwargs
+) -> np.array
 </code></pre>
 
 
 
 <!-- Placeholder for "Used in" -->
-
-Evening Star (Pattern Recognition)
-
-#### Inputs:
-
-
-* <b>`prices`</b>: ['open', 'high', 'low', 'close']
-
-
-#### Parameters:
-
-
-* <b>`penetration`</b>: 0.3
-
-
-#### Outputs:
-
-integer (values are -100, 0 or 100)

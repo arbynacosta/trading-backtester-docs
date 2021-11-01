@@ -13,24 +13,14 @@
 
 
 
-WCLPRICE(high, low, close)
+
 
 <pre class="devsite-click-to-copy prettyprint lang-py tfo-signature-link">
-<code>bt.ta.wclprice()
+<code>bt.ta.wclprice(
+    *args, **kwargs
+) -> np.array
 </code></pre>
 
 
 
 <!-- Placeholder for "Used in" -->
-
-Weighted Close Price (Price Transform)
-
-#### Inputs:
-
-
-* <b>`prices`</b>: ['high', 'low', 'close']
-
-
-#### Outputs:
-
-real

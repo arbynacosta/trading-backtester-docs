@@ -13,31 +13,14 @@
 
 
 
-SAR(high, low[, acceleration=?, maximum=?])
+
 
 <pre class="devsite-click-to-copy prettyprint lang-py tfo-signature-link">
-<code>bt.ta.sar()
+<code>bt.ta.sar(
+    *args, **kwargs
+) -> np.array
 </code></pre>
 
 
 
 <!-- Placeholder for "Used in" -->
-
-Parabolic SAR (Overlap Studies)
-
-#### Inputs:
-
-
-* <b>`prices`</b>: ['high', 'low']
-
-
-#### Parameters:
-
-
-* <b>`acceleration`</b>: 0.02
-* <b>`maximum`</b>: 0.2
-
-
-#### Outputs:
-
-real

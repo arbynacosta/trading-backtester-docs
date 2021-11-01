@@ -13,31 +13,14 @@
 
 
 
-ADOSC(high, low, close, volume[, fastperiod=?, slowperiod=?])
+
 
 <pre class="devsite-click-to-copy prettyprint lang-py tfo-signature-link">
-<code>bt.ta.adosc()
+<code>bt.ta.adosc(
+    *args, **kwargs
+) -> np.array
 </code></pre>
 
 
 
 <!-- Placeholder for "Used in" -->
-
-Chaikin A/D Oscillator (Volume Indicators)
-
-#### Inputs:
-
-
-* <b>`prices`</b>: ['high', 'low', 'close', 'volume']
-
-
-#### Parameters:
-
-
-* <b>`fastperiod`</b>: 3
-* <b>`slowperiod`</b>: 10
-
-
-#### Outputs:
-
-real

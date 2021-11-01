@@ -3,7 +3,6 @@
 <meta itemprop="path" content="Stable" />
 <meta itemprop="property" content="LONG"/>
 <meta itemprop="property" content="SHORT"/>
-<meta itemprop="property" content="VALID_POSITION_TYPES"/>
 </div>
 
 # Module: bt.position
@@ -16,7 +15,7 @@
 
 
 
-Module containing position constants and classes for the backtester.
+Module containing position constants.
 
 
 
@@ -40,13 +39,6 @@ SHORT<a id="SHORT"></a>
 </td>
 <td>
 `'short'`
-</td>
-</tr><tr>
-<td>
-VALID_POSITION_TYPES<a id="VALID_POSITION_TYPES"></a>
-</td>
-<td>
-`('long', 'short')`
 </td>
 </tr>
 </table>

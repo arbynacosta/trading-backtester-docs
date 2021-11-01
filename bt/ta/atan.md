@@ -13,24 +13,14 @@
 
 
 
-ATAN(real)
+
 
 <pre class="devsite-click-to-copy prettyprint lang-py tfo-signature-link">
-<code>bt.ta.atan()
+<code>bt.ta.atan(
+    *args, **kwargs
+) -> np.array
 </code></pre>
 
 
 
 <!-- Placeholder for "Used in" -->
-
-Vector Trigonometric ATan (Math Transform)
-
-#### Inputs:
-
-
-* <b>`real`</b>: (any ndarray)
-
-
-#### Outputs:
-
-real

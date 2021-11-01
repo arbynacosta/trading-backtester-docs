@@ -1,3 +1,3 @@
 redirects:
-- from: \api_docs\python\bt\BacktesterConfig
-  to: \api_docs\python\bt\config\BacktesterConfig
+- from: \api_docs\python\bt\ta\bbands
+  to: \api_docs\python\bt\ta\bb

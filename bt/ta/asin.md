@@ -13,24 +13,14 @@
 
 
 
-ASIN(real)
+
 
 <pre class="devsite-click-to-copy prettyprint lang-py tfo-signature-link">
-<code>bt.ta.asin()
+<code>bt.ta.asin(
+    *args, **kwargs
+) -> np.array
 </code></pre>
 
 
 
 <!-- Placeholder for "Used in" -->
-
-Vector Trigonometric ASin (Math Transform)
-
-#### Inputs:
-
-
-* <b>`real`</b>: (any ndarray)
-
-
-#### Outputs:
-
-real

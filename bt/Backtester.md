@@ -4,6 +4,7 @@
 <meta itemprop="property" content="__init__"/>
 <meta itemprop="property" content="run"/>
 <meta itemprop="property" content="set_strategy"/>
+<meta itemprop="property" content="visualize"/>
 </div>
 
 # bt.Backtester
@@ -20,7 +21,7 @@ Base backtester class.
 
 <pre class="devsite-click-to-copy prettyprint lang-py tfo-signature-link">
 <code>bt.Backtester(
-    config: (dict | str)
+    config: (dict | str | BacktesterConfig)
 )
 </code></pre>
 
@@ -41,21 +42,21 @@ Base backtester class.
 `config`
 </td>
 <td>
-Backtester configuration. An instance of <a href="..\bt\config\BacktesterConfig.md"><code>bt.BacktesterConfig</code></a>.
-</td>
-</tr><tr>
-<td>
-`data`
-</td>
-<td>
-OHLCV data exposure from the internal exchange.
+
 </td>
 </tr><tr>
 <td>
 `exchange`
 </td>
 <td>
-Internal exchange representation for the backtester.
+
+</td>
+</tr><tr>
+<td>
+`metrics`
+</td>
+<td>
+
 </td>
 </tr><tr>
 <td>
@@ -75,7 +76,8 @@ For Example, our strategy uses this list of indicators:
 - RSI 14 (required number of periods is 14)
 
 So for this strategy, the minimum indicator period is 200 since
-that's the largest required indicator period.
+that's the largest required indicator period. If there's no
+strategy parameters, the minimum indicator period is 0.
 </td>
 </tr><tr>
 <td>
@@ -95,7 +97,7 @@ To set the strategy properly, use <a href="..\bt\Backtester.md#set_strategy"><co
 
 <h3 id="run"><code>run</code></h3>
 
-<a target="_blank" href="https://github.com/tensorflow/docs/tree/master/tools/tensorflow_docs\backtester.py#L38-L123">View source</a>
+<a target="_blank" href="https://github.com/tensorflow/docs/tree/master/tools/tensorflow_docs\backtester.py#L39-L147">View source</a>
 
 <pre class="devsite-click-to-copy prettyprint lang-py tfo-signature-link">
 <code>run()
@@ -106,7 +108,7 @@ The core method to perform backtesting.
 
 <h3 id="set_strategy"><code>set_strategy</code></h3>
 
-<a target="_blank" href="https://github.com/tensorflow/docs/tree/master/tools/tensorflow_docs\backtester.py#L125-L163">View source</a>
+<a target="_blank" href="https://github.com/tensorflow/docs/tree/master/tools/tensorflow_docs\backtester.py#L149-L186">View source</a>
 
 <pre class="devsite-click-to-copy prettyprint lang-py tfo-signature-link">
 <code>set_strategy(
@@ -159,6 +161,47 @@ the latter is the one we would use.
 Raised when the strategy is not a subclass of
 <a href="..\bt\BacktesterStrategy.md"><code>bt.BacktesterStrategy</code></a>, is not a class at all, or if
 the input strategy is already an instance.
+</td>
+</tr>
+</table>
+
+
+
+<h3 id="visualize"><code>visualize</code></h3>
+
+<a target="_blank" href="https://github.com/tensorflow/docs/tree/master/tools/tensorflow_docs\visuals.py#L17-L308">View source</a>
+
+<pre class="devsite-click-to-copy prettyprint lang-py tfo-signature-link">
+<code>visualize(
+    input_symbol: (str | None) = None,
+    plots: (list | dict | str | None) = None
+) -> (go.Figure | None)
+</code></pre>
+
+Visualization function for the backtester.
+
+
+<!-- Tabular view -->
+ <table class="responsive fixed orange">
+<colgroup><col width="214px"><col></colgroup>
+<tr><th colspan="2" style="text-align: left;">Arguments</th></tr>
+
+<tr>
+<td>
+`input_symbol`
+</td>
+<td>
+The asset symbol that we want to visualize. If
+set to `None`, then the results of the visualization is for
+the overall backtest result.
+</td>
+</tr><tr>
+<td>
+`plots`
+</td>
+<td>
+A list of strings indicating the indicators, and other
+charts that we want to include in the visualization.
 </td>
 </tr>
 </table>

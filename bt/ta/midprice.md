@@ -13,30 +13,14 @@
 
 
 
-MIDPRICE(high, low[, timeperiod=?])
+
 
 <pre class="devsite-click-to-copy prettyprint lang-py tfo-signature-link">
-<code>bt.ta.midprice()
+<code>bt.ta.midprice(
+    *args, **kwargs
+) -> np.array
 </code></pre>
 
 
 
 <!-- Placeholder for "Used in" -->
-
-Midpoint Price over period (Overlap Studies)
-
-#### Inputs:
-
-
-* <b>`prices`</b>: ['high', 'low']
-
-
-#### Parameters:
-
-
-* <b>`timeperiod`</b>: 14
-
-
-#### Outputs:
-
-real

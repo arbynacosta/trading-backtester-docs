@@ -13,24 +13,14 @@
 
 
 
-CDLMARUBOZU(open, high, low, close)
+
 
 <pre class="devsite-click-to-copy prettyprint lang-py tfo-signature-link">
-<code>bt.ta.cdlmarubozu()
+<code>bt.ta.cdlmarubozu(
+    *args, **kwargs
+) -> np.array
 </code></pre>
 
 
 
 <!-- Placeholder for "Used in" -->
-
-Marubozu (Pattern Recognition)
-
-#### Inputs:
-
-
-* <b>`prices`</b>: ['open', 'high', 'low', 'close']
-
-
-#### Outputs:
-
-integer (values are -100, 0 or 100)
